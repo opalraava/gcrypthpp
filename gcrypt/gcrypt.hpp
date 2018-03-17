@@ -4,10 +4,14 @@
 #ifndef INCLUDED_GCRYPT_HPP
 #define INCLUDED_GCRYPT_HPP
 
+#include <string>
+
 #include "libgcrypt.hpp"
 
 namespace gcrypt
 {
-  struct key {};
+  struct key {
+    key(const std::string& passwd) {}
+  };
 }
 #endif /* INCLUDED_GCRYPT_HPP */

@@ -2,6 +2,9 @@
 
 #ifndef INCLUDED_LIBGCRYPT_HPP
 #define INCLUDED_LIBGCRYPT_HPP
+
+#include <gcrypt.h>
+
 namespace libgcrypt
 {
 }

@@ -4,6 +4,4 @@
 #
 
 all :
-	${MAKE} -C ../tests clean
-	${MAKE} -C ../tests all
-	${MAKE} -C ../tests clean
+	${MAKE} -C ../tests

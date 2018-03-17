@@ -8,5 +8,6 @@
 int
 main(int argc, char* argv[])
 {
-  return 0;
+  gcrypt::key key("mypass");	// create a new key
+  return 0;			// test passed
 }
